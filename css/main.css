@@ -1,0 +1,162 @@
+.wrapper{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-top{
+    display: flex;
+    background: #000000;
+    height: 36px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    background: #da2020;
+    margin-left: 12%;
+    height: 116px;
+}
+.logo h2 {
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 22px;
+}
+header nav{
+    display: flex;
+    margin-left: 25%;
+}
+header ul{
+    padding: 8px;
+    align-items: center;
+    margin: 0;
+}
+header li {
+    justify-content: center;
+    width: 130px;
+    display: inline-flex;
+    
+    
+    border-right: 2px white solid;
+    
+}
+header li a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Helvetica Neue LT - Condensed";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+        
+}
+header  .contact-lincs{
+    position: relative;
+    bottom: -12px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    height: 36px;
+}
+.circle{
+    border-radius: 12px;
+    border: 2px white solid;
+    width: 20px;
+    height: 20px;
+    background: #da2020;
+}
+.logo-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.logo-text h1{
+    color: #000000;
+    font-family: "Perpetua Titling MT";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.bg-image{
+    display: flex;
+    background-image: url('imgs\Layer_13.png');
+    background-size: cover; 
+    width: 100%;
+    
+    
+}
+.bg-image-div{
+    overflow: hidden;
+    height: 300px;
+
+}
+.person{
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px #c8cccf solid;
+}
+.person img{
+    left: 10%;
+    position: absolute;
+    bottom: 40px;
+}
+h3{
+    color: #000000;
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #585555;
+}
+.person  h3 {
+    
+    margin: 5px 0; 
+    margin-left: 30%; 
+    
+}
+.person h3 span{
+    font-size: 15px;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.left-box-text{
+    width: 45%;
+}
+.left-box-text h3{
+    font-size: 17px;
+}
+.left-box-text p{
+    text-align: justify;
+    
+}
+.right-box{
+    width: 45%;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos img{
+    width: 120px;
+}
+.photos p {
+    margin-top: 0;
+}
