@@ -2,6 +2,7 @@
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 .header-top{
@@ -73,7 +74,6 @@ header  .contact-lincs{
     background: #da2020;
 }
 .logo-text{
-    width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -96,11 +96,10 @@ header  .contact-lincs{
 .bg-image-div{
     overflow: hidden;
     height: 300px;
-
+    background: url('../imgs/Layer_13.jpg') no-repeat fixed center;
 }
 .person{
     padding: 10px;
-    width: 100%;
     position: relative;
     border-bottom: 1px #c8cccf solid;
 }
