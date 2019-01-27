@@ -8,9 +8,9 @@
 .header-top{
     display: flex;
     background: #000000;
-    height: 36px;
+    min-height: 36px;
     width: 100%;
-    flex-wrap: wrap;
+    
 }
 .logo{
     position: absolute;
@@ -36,12 +36,14 @@ header ul{
     padding: 8px;
     align-items: center;
     margin: 0;
+    flex-wrap: wrap;
+    display: flex;
 }
 header li {
     justify-content: center;
     width: 130px;
     display: inline-flex;
-    
+    flex-grow: 1;
     
     border-right: 2px white solid;
     
@@ -59,12 +61,12 @@ header li a {
 }
 header  .contact-lincs{
     position: relative;
-    bottom: -12px;
+    bottom: -17px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-grow: 1;
     justify-content: space-evenly;
-    height: 36px;
+    min-height: 36px;
 }
 .circle{
     border-radius: 12px;
@@ -104,7 +106,7 @@ header  .contact-lincs{
     border-bottom: 1px #c8cccf solid;
 }
 .person img{
-    left: 10%;
+    left:5%;
     position: absolute;
     bottom: 40px;
 }
@@ -159,3 +161,15 @@ main{
 .photos p {
     margin-top: 0;
 }
+@media only screen and (max-width: 838px) {
+    header .contact-lincs {
+      flex-direction: column;
+    }
+    .contact-lincs a {
+        margin: 5px 0;
+    }
+
+    .person h3 {
+        margin-left: 36%;
+    }
+  }
